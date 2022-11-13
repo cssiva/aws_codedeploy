@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+    build:
+        commands:
+               - echo "Build block"
+               - echo "Running tests to verify if Success"
+               - grep "Success" sample.html
+
+    post_build:
+        commands:
+               - echo "post build phase"
