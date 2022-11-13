@@ -4,7 +4,7 @@ phases:
         commands:
                - echo "Build block"
                - echo "Running tests to verify if Success"
-               - grep "Success" sample.html
+               - grep "Success" index.html
 
     post_build:
         commands:
